@@ -1,0 +1,22 @@
+{
+  "name": "js-test-teamplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ComicScrip/js-test-teamplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ComicScrip/js-test-teamplate/issues"
+  },
+  "homepage": "https://github.com/ComicScrip/js-test-teamplate#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

@@ -1,1 +1,1 @@
-# js-test-teamplate
+# js-test-template

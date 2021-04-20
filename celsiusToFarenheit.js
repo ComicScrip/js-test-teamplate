@@ -1,4 +1,4 @@
-const celiusToFarenheit = (degreesCelsius, precision = 2) => {
+const celsiusToFarenheit = (degreesCelsius, precision = 2) => {
   //(0 °C × 9/5) + 32 = 32 °F
   // 2 : 100 = 10^2
   // 3 : 1000 = 10^3
@@ -8,4 +8,4 @@ const celiusToFarenheit = (degreesCelsius, precision = 2) => {
   return Math.round(factor * ((degreesCelsius * 9) / 5 + 32)) / factor;
 };
 
-module.exports = celiusToFarenheit;
+module.exports = celsiusToFarenheit;

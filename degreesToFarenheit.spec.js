@@ -1,7 +1,9 @@
-const degreesToFarenheit = require('./degreesToFarenheit');
+function myFunctionToTest() {
+  // TODO
+}
 
-describe('the degreesToFarenheit function', () => {
-  it('should work', () => {
-    expect(degreesToFarenheit(0)).toBe(32);
+describe('myFunctionToTest', () => {
+  it('should be a function', () => {
+    expect(typeof myFunctionToTest === 'function').toBe(true);
   });
 });
